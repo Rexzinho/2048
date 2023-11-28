@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale:1.0">
+        <link rel="shortcut icon" href="Cookie.ico" type="image/x-icon">
+        <title>2048</title>
+        <link rel="stylesheet" href="2048.css">
+        <script src="2048.js"></script>
+        <meta name="Keywords" content="2048, 2048Game, 2048GAME, 2048game, MinecraftTheme, SuperAutoPetsTheme">
+        <meta name="author" content="Vinícius Sorgetz Alves">
+    </head>
+    <body class="bodySap">
+    <div class="main">
+        <div class="mainLeft">
+            <div class="infoGame">
+                <h1>2048</h1>
+                <div class="score">
+                    <div class="score1">
+                        <h2>Score: <span id="score">0</span><espaco>t</espaco></h2>
+                    </div>
+                    <div class="score2">
+                        <h2 id="h2Add"><span id="add"></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div id="boardSap">
+                <div id="Over">
+                    <h3>GAME OVER!</h3>
+                </div>
+                <div id="Win">
+                    <h3>YOU WON!</h3>
+                </div>
+            </div>
+        </div>
+        <div class="mainRight">
+            <div class="home">
+                <a href="index.html">
+                    <img class="homeSvg"src="home_FILL0_wght400_GRAD0_opsz24.svg">
+                </a>
+            </div>
+            <div class="opcoes">
+                <button id="opcao" class="opcaoSap" onclick="ResetGame()">Restart</button>
+                <button id="opcao" class="opcaoSap" onclick="ganhar()">Auto-Win</button>
+                <img class="Keys"src="KeysStandard.svg">
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
