@@ -336,6 +336,7 @@ function ResetGame(){
     document.getElementById('restart').style.display = 'none';
 }
 
+// Função para ganhar o jogo automaticamente. Se trata basicamente da função setTwo, para criar um bloco 2 aleatoriamente, só que, neste caso, será criado um bloco 2048, ganhando o jogo.
 function ganhar(){
     VictoryContagem++;
     if(VictoryContagem==1 && GameOverContagem==0){
