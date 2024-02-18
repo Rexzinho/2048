@@ -1,0 +1,147 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(26, 26, 26);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Bold.ttf);
+}
+h1{
+    color:white;
+    font-family: Poppins;
+    margin:0;
+    margin-top:20px;
+    font-size:3rem;
+    text-align: center;
+}
+h2{
+    color:white;
+    margin:0;
+    font-size:1.4rem;
+    font-family: Poppins;
+    text-align: center;
+}
+#displayScore{
+    transition: 0.1s;
+}
+#displayGameOver{
+    display:none;
+    width:120px;
+    margin:auto;
+    transition: 0.2s;
+    color: white;
+    background-color: #ff2020;
+    padding:10px;
+    border-radius: 5px;
+    font-size:1.1rem;
+}
+.boardDisplay{
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top:10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    border: 4px solid rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);
+    margin-bottom:20px;
+    transition:0.1s;
+}
+.header{
+    display:flex;
+    width:390px;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+.header button{
+    font-family: Poppins;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius:4px;
+    font-size:1.2rem;
+    padding: 3px 10px;
+    background-color: white;
+    cursor:pointer;
+}
+.square{
+    color: rgb(39, 39, 39);
+    transition: 0.1s;
+    font-family: Poppins;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 4px solid rgb(26, 26, 26);
+    background-color: #CEC2B5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}
+
+.x2 {
+    background-color: #eee4da;
+    color: rgb(39, 39, 39);
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: rgb(39, 39, 39);
+}
+
+.x8 {
+    background-color: #e77e40;
+    color: white;
+}
+
+.x16{
+    background-color: #f0543f;
+    color: white;
+}
+
+.x32{
+    background-color: #e93326;
+    color: white;
+}
+
+.x64{
+    background-color: #bd1b16;
+    color: white;
+}
+
+.x128{
+    background-color: #f0a652;
+    color: white;
+}
+
+.x256{
+    background-color: #ebbe2a;
+    color: white;
+}
+
+.x512{
+    background-color: #d3d018;
+    color: white;
+}
+
+.x1024{
+    background-color: #a5cc18;
+    color: white;
+}
+
+.x2048{
+    background-color: #0dca3c;
+    color: white;
+}
+
+.x4096 {
+    background-color: #157cdd;
+    color: white;
+}
+
+.x8192 {
+    background-color: #1037b8;
+    color: white;
+}
